@@ -1,0 +1,137 @@
+.form-container {
+  background-color: var(--shape-background);
+  padding: 5rem 8.125rem;
+  overflow-y: scroll;
+}
+
+.form-container fieldset {
+  border: none;
+}
+
+.form-container fieldset legend {
+  color: var(--text-heading);
+  font-family: "Baloo 2", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.form-container .about-event {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 2.5rem;
+}
+
+.form-container .about-event span {
+  font-family: "Baloo 2", sans-serif;
+  color: var(--text-heading);
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.form-container .input-container {
+  margin-top: 1.5rem;
+}
+
+.form-container .input-wrapper {
+  margin-bottom: 1rem;
+}
+
+.form-container .input-wrapper label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-body);
+}
+
+.form-container .input-wrapper input {
+  padding: 0.8125rem;
+  width: 35.5rem;
+  background-color: var(--input-background);
+  border: 1px solid var(--input-stroke);
+  border-radius: 8px;
+  color: var(--input-placeholder);
+}
+
+.form-container .input-wrapper input::placeholder {
+  color: var(--input-placeholder);
+}
+
+.form-container .input-wrapper-flex {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 1rem;
+}
+
+.form-container .input-wrapper-flex label {
+  display: block;
+  color: var(--text-body);
+  margin-bottom: 12px;
+}
+
+.form-container .input-wrapper-flex input {
+  padding: 0.8125rem;
+  width: 17rem;
+  background-color: var(--input-background);
+  border: 1px solid var(--input-stroke);
+  border-radius: 8px;
+  color: var(--input-placeholder);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.togle {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--input-stroke);
+  border-radius: 8px;
+}
+
+.presencial {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 8.125rem;
+  padding: 0.7rem 1.13rem;
+}
+
+.presencial span {
+  font-family: "Baloo 2", sans-serif;
+  font-size: 0.876rem;
+  color: var(--text-heading);
+}
+
+.online {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.7rem 1.13rem;
+}
+
+.online span {
+  font-family: "Baloo 2", sans-serif;
+  font-size: 0.876rem;
+  color: var(--text-heading);
+}
+
+.online:hover {
+  background-color: var(--shape-hover);
+  border-radius: 8px;
+}
+
+.presencial:hover {
+  background-color: var(--shape-hover);
+  border-radius: 8px;
+}
+
+.local {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.local input {
+  width: 17rem;
+}

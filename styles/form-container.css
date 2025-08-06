@@ -149,3 +149,85 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .input-wrapper textarea::placeholder {
   color: var(--input-placeholder);
 }
+
+.splashbrush {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.75rem;
+}
+
+.splashbrush .heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.splashbrush .container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.splashbrush .container span {
+  color: var(--text-heading);
+}
+
+.color-pallete {
+  display: flex;
+  gap: 12px;
+}
+
+.color-pallete .color-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--shape-button);
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  margin-top: 1rem;
+}
+
+.color-pallete .color-circle .color {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.color-pallete .color-circle:hover {
+  border: 2px solid var(--brand-light);
+}
+
+.heading-event {
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.card {
+  background-color: var(--shape-button);
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  align-items: center;
+  border-radius: 8px;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px; /* opcional */
+}
+
+.card:hover {
+  border: 2px solid var(--brand-light);
+}
+
+.card p {
+  margin-top: 8px;
+  color: var(--text-heading);
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+}

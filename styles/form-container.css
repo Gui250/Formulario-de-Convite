@@ -368,3 +368,29 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .input label {
   margin-top: 1.5rem;
 }
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1.5rem;
+}
+
+input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  background-color: var(--input-background);
+}
+input[type="checkbox"]:checked {
+  appearance: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.3s;
+  background-image: url("../assets/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: var(--brand-light);
+}
